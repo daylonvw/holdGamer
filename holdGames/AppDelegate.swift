@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        // set application id fom parse.com to enable App to work with specific parse project 
+        Parse.setApplicationId("lnzQ1JmpoyZAcvTct0iOSEmbfIRcItz6cjSRAnZI", clientKey: "FgpNVwg5r0oOCDCODPTuUioH3QrXCq0uRe3KvyMB")
+        
+        UINavigationBar.appearance().titleTextAttributes = NSDictionary(objectsAndKeys: UIColor.darkGrayColor(), NSForegroundColorAttributeName, UIFont(name: "HelveticaNeue", size: 20.0)!, NSFontAttributeName)
         return true
     }
 

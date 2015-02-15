@@ -13,6 +13,19 @@
 		037DB2C91A890C5F00B96B37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037DB2C81A890C5F00B96B37 /* Images.xcassets */; };
 		037DB2CC1A890C5F00B96B37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037DB2CA1A890C5F00B96B37 /* LaunchScreen.xib */; };
 		037DB2D81A890C5F00B96B37 /* holdGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037DB2D71A890C5F00B96B37 /* holdGamesTests.swift */; };
+		037DB2E81A89186700B96B37 /* brandsInformationTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037DB2E71A89186700B96B37 /* brandsInformationTableTableViewController.swift */; };
+		037EBECE1A90AB3C00375F9D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBECD1A90AB3C00375F9D /* Parse.framework */; };
+		037EBED01A90AB4700375F9D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBECF1A90AB4700375F9D /* Bolts.framework */; };
+		037EBED21A90AC3500375F9D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBED11A90AC3500375F9D /* AudioToolbox.framework */; };
+		037EBED41A90AC3F00375F9D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBED31A90AC3F00375F9D /* CFNetwork.framework */; };
+		037EBED61A90AC4700375F9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBED51A90AC4700375F9D /* CoreGraphics.framework */; };
+		037EBED81A90AC4D00375F9D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBED71A90AC4D00375F9D /* CoreLocation.framework */; };
+		037EBEDA1A90AC5A00375F9D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBED91A90AC5A00375F9D /* MobileCoreServices.framework */; };
+		037EBEDC1A90AC6100375F9D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBEDB1A90AC6100375F9D /* QuartzCore.framework */; };
+		037EBEDE1A90AC6C00375F9D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBEDD1A90AC6C00375F9D /* Security.framework */; };
+		037EBEE01A90AC7200375F9D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBEDF1A90AC7200375F9D /* StoreKit.framework */; };
+		037EBEE21A90AC7C00375F9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBEE11A90AC7C00375F9D /* SystemConfiguration.framework */; };
+		037EBEE41A90AC9D00375F9D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EBEE31A90AC9D00375F9D /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,20 @@
 		037DB2D11A890C5F00B96B37 /* holdGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holdGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		037DB2D61A890C5F00B96B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		037DB2D71A890C5F00B96B37 /* holdGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holdGamesTests.swift; sourceTree = "<group>"; };
+		037DB2E71A89186700B96B37 /* brandsInformationTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = brandsInformationTableTableViewController.swift; sourceTree = "<group>"; };
+		037EBECD1A90AB3C00375F9D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		037EBECF1A90AB4700375F9D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		037EBED11A90AC3500375F9D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		037EBED31A90AC3F00375F9D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		037EBED51A90AC4700375F9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		037EBED71A90AC4D00375F9D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		037EBED91A90AC5A00375F9D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		037EBEDB1A90AC6100375F9D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		037EBEDD1A90AC6C00375F9D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		037EBEDF1A90AC7200375F9D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		037EBEE11A90AC7C00375F9D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		037EBEE31A90AC9D00375F9D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		037EBEE51A90AD7500375F9D /* holdGames-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "holdGames-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +70,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037EBEE41A90AC9D00375F9D /* libz.dylib in Frameworks */,
+				037EBEE21A90AC7C00375F9D /* SystemConfiguration.framework in Frameworks */,
+				037EBEE01A90AC7200375F9D /* StoreKit.framework in Frameworks */,
+				037EBEDE1A90AC6C00375F9D /* Security.framework in Frameworks */,
+				037EBEDC1A90AC6100375F9D /* QuartzCore.framework in Frameworks */,
+				037EBEDA1A90AC5A00375F9D /* MobileCoreServices.framework in Frameworks */,
+				037EBED81A90AC4D00375F9D /* CoreLocation.framework in Frameworks */,
+				037EBED61A90AC4700375F9D /* CoreGraphics.framework in Frameworks */,
+				037EBED41A90AC3F00375F9D /* CFNetwork.framework in Frameworks */,
+				037EBED21A90AC3500375F9D /* AudioToolbox.framework in Frameworks */,
+				037EBECE1A90AB3C00375F9D /* Parse.framework in Frameworks */,
+				037EBED01A90AB4700375F9D /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +116,14 @@
 		037DB2BE1A890C5F00B96B37 /* holdGames */ = {
 			isa = PBXGroup;
 			children = (
+				037DB2C51A890C5F00B96B37 /* Main.storyboard */,
 				037DB2C11A890C5F00B96B37 /* AppDelegate.swift */,
 				037DB2C31A890C5F00B96B37 /* ViewController.swift */,
-				037DB2C51A890C5F00B96B37 /* Main.storyboard */,
+				037DB2E71A89186700B96B37 /* brandsInformationTableTableViewController.swift */,
 				037DB2C81A890C5F00B96B37 /* Images.xcassets */,
 				037DB2CA1A890C5F00B96B37 /* LaunchScreen.xib */,
 				037DB2BF1A890C5F00B96B37 /* Supporting Files */,
+				037EBEE51A90AD7500375F9D /* holdGames-Bridging-Header.h */,
 			);
 			path = holdGames;
 			sourceTree = "<group>";
@@ -90,6 +131,18 @@
 		037DB2BF1A890C5F00B96B37 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				037EBEE31A90AC9D00375F9D /* libz.dylib */,
+				037EBEE11A90AC7C00375F9D /* SystemConfiguration.framework */,
+				037EBEDF1A90AC7200375F9D /* StoreKit.framework */,
+				037EBEDD1A90AC6C00375F9D /* Security.framework */,
+				037EBEDB1A90AC6100375F9D /* QuartzCore.framework */,
+				037EBED91A90AC5A00375F9D /* MobileCoreServices.framework */,
+				037EBED71A90AC4D00375F9D /* CoreLocation.framework */,
+				037EBED51A90AC4700375F9D /* CoreGraphics.framework */,
+				037EBED31A90AC3F00375F9D /* CFNetwork.framework */,
+				037EBED11A90AC3500375F9D /* AudioToolbox.framework */,
+				037EBECF1A90AB4700375F9D /* Bolts.framework */,
+				037EBECD1A90AB3C00375F9D /* Parse.framework */,
 				037DB2C01A890C5F00B96B37 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -213,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				037DB2C41A890C5F00B96B37 /* ViewController.swift in Sources */,
+				037DB2E81A89186700B96B37 /* brandsInformationTableTableViewController.swift in Sources */,
 				037DB2C21A890C5F00B96B37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +390,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/holdGames",
+				);
 				INFOPLIST_FILE = holdGames/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "holdGames/holdGames-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +407,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/holdGames",
+				);
 				INFOPLIST_FILE = holdGames/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "holdGames/holdGames-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +472,7 @@
 				037DB2DD1A890C5F00B96B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		037DB2DE1A890C5F00B96B37 /* Build configuration list for PBXNativeTarget "holdGamesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +481,7 @@
 				037DB2E01A890C5F00B96B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
